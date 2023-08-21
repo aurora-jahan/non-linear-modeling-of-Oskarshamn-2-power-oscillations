@@ -1,2 +1,7 @@
-# non-linear-modeling-of-Oskarshamn-2-power-oscillations
-non-linear least squares modeling of Oskarshamn 2 power oscillations event
+# Non-linear least squares modeling of Oskarshamn 2 power oscillations event
+
+In this project, I applied the Newton-Raphson method to perform non-linear least squares model fitting on power oscillations data from an accidental event that occurred in Oscarshamn-2 at a boiling water reactor in 1999.
+
+The project begins with an exploration of linear least-squares problems and concepts such as the Pearson correlation coefficient, RMSE (Root Mean Square Error), RMSN (Root Mean Square Normalized), and CoD (Coefficient of Determination) to evaluate the performance of the fitted models. Then the project explores the Newton-Raphson method and its use in non-linear least square model fitting. Armed with the insights gained from these studies, the project progresses onto the main objective: to fit a non-linear model to the experimental power oscillation data.
+
+First, the experimental data is preprocessed to remove a linear trend and to scale it with an appropriate scaling factor. Then its time evolution characteristics are examined in order to select an appropriate non-linear model- an exponentially decaying cosine function with four independent parameters. Analytical calculations are performed to obtain initial guesses for the parameters. Finally, the Newton-Raphson method is utilized to fit the non-linear model to the preprocessed data. To assess the quality of the fitted model, the decay ratio and RMSE are computed which provide insights into the model’s capability to capture the dynamics of the power oscillations.
